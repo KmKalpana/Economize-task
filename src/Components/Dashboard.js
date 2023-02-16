@@ -1,7 +1,7 @@
-import React from 'react'
-import { DiCode } from 'react-icons/di'
+import React from 'react';
 import { GrFormSchedule } from 'react-icons/gr'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
+import LineGraph from './LineChart';
 const Dashboard = () => {
   return (
     <div className="pt-1">
@@ -12,6 +12,7 @@ const Dashboard = () => {
             <img
               src="http://source.unsplash.com/100x100/?woman"
               className="rounded-full"
+              alt="unsplash"
             />
             <div className="absolute right-0 top-0 w-3 h-3 rounded-full bg-blue-400"></div>
           </div>
@@ -83,9 +84,12 @@ const Dashboard = () => {
              </div> {/**SubBox-4 Completed*/}
           </div>
         {/** Boxes End */}
-        <div>  {/** Chart.js Started*/}
-        
-        </div> {/**Chart Js Ended */}
+       <div>  {/**Graph as Line Chart */}
+       <LineGraph />
+       </div>
+       <div>  {/**Bottom part */}
+       
+       </div>
     </div>
   )
 }
