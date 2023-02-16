@@ -1,11 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import Dashboard from './Components/Dashboard'
+import Sidebar from './Components/Sidebar'
+import './App.css'
 function App() {
   return (
-    <div className='text-3xl font-bold underline'>
-       Hello World
-    </div>
-  );
+    <>
+      <Sidebar />
+
+      <Dashboard />
+    </>
+  )
 }
 
-export default App;
+export default App
