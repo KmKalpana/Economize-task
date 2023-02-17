@@ -1,5 +1,4 @@
 import React from 'react'
-import { GrFormSchedule } from 'react-icons/gr'
 import {RiShoppingCartFill} from 'react-icons/ri'
 const Bottom = () => {
   return (
