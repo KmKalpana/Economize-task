@@ -1,6 +1,7 @@
 import React from 'react';
 import { GrFormSchedule } from 'react-icons/gr'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
+import Bottom from './Bottom';
 import LineGraph from './LineChart';
 const Dashboard = () => {
   return (
@@ -87,9 +88,9 @@ const Dashboard = () => {
        <div>  {/**Graph as Line Chart */}
        <LineGraph />
        </div>
-       <div>  {/**Bottom part */}
-       
-       </div>
+       <div>   {/**Bottom */}
+        <Bottom />
+       </div>  {/**Bottom End */}
     </div>
   )
 }
